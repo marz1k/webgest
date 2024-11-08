@@ -1,45 +1,82 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    position: relative;
-    background-color: #d3d3d3;
-    margin: 0;
+  position: relative;
+  background-color: #c7e5ff;
+  margin: 0;
 }
 
 .bgimage {
-    position: relative;
-    text-align: center;
+  position: relative;
+  text-align: center;
 }
 
 img {
-    width: 50%;
-    display: block;
-    margin-top: 10%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 50%;
+  display: block;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.loginblock {
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
-    background-color: rgba(79, 140, 197, 0.9); 
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    width: 400px;
-    height: 300px;
+.loginblock:not(:hover) {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(79, 140, 197, 0.9);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  height: 200px;
+  transition: background-color 0.5s;
+  /* align-content: center; */
+}
+
+.loginblock:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  height: 200px;
+  transition: background-color 0.5s;
+  background-color: rgb(46, 105, 161);
+  transition: background-color 0.5s;
 }
 
 #password {
-    margin-top: 30px;
+  position: relative;
+  bottom: 5px;
+}
+#username {
+  position: relative;
+  bottom: 10px;
 }
 
-#login-but{
-    margin-top: 30px;
-    width: 100px;
+#login-but {
+  width: 165px;
+  height: 25px;
+  border-radius: 5px;
+  border-style: solid;
+}
+
+#login-but:hover {
+  background-color: darkgrey;
+  color: white;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+#username:hover,
+#password:hover {
+  box-shadow: 0px 0px 1px 2px white;
+  transition: box-shadow 0.2s;
 }
