@@ -57,6 +57,7 @@ footer {
   height: 60px;
   width: 100%;
   bottom: 0;
+  z-index: 0;
 
   /* Style */
   color: white;
@@ -96,6 +97,28 @@ footer > h4 {
   color: rgb(64, 148, 227);
   transform: scale(0.9);
   transition: color 0.2s, transform 0.2s;
+}
+
+.anchor {
+  /* background: url("../res/ovh_anchor.webp"); */
+  /* background-size: 55px; */
+  background-color: rgb(46, 105, 161);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-radius: 100%;
+  border-color: none;
+  border-style: none;
+  width: 53px;
+  height: 53px;
+  position: fixed;
+  top: 90%;
+  left: 95%;
+  z-index: 2;
+}
+
+.anchor:hover {
+  cursor: pointer;
 }
 
 .clr {
