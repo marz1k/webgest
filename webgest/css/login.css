@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background-color: #d3d3d3;
+    margin: 0;
+}
+
+.bgimage {
+    position: relative;
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    display: block;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loginblock {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background-color: rgba(79, 140, 197, 0.9); 
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+}
+
+#password {
+    margin-top: 30px;
+}
+
+#login-but{
+    margin-top: 30px;
+    width: 100px;
+}
