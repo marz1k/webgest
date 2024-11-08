@@ -26,38 +26,44 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(79, 140, 197, 0.9);
-  color: white;
   padding: 20px;
+  transform: translate(-50%, -50%);
+
+  color: white;
   border-radius: 10px;
   width: 400px;
   height: 200px;
+  background-color: rgba(79, 140, 197, 0.9);
   transition: background-color 0.5s;
-  /* align-content: center; */
 }
 
 .loginblock:hover {
-  font-family: Arial, Helvetica, sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
   padding: 20px;
+
+  color: white;
   border-radius: 10px;
   width: 400px;
   height: 200px;
-  transition: background-color 0.5s;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(46, 105, 161);
   transition: background-color 0.5s;
 }
 
 #password {
+  border: 2px rgb(35, 81, 125) solid;
+  border-radius: 5px;
+  background-color: white;
   position: relative;
   bottom: 5px;
 }
 #username {
+  border: 2px rgb(35, 81, 125) solid;
+  border-radius: 5px;
+  background-color: white;
   position: relative;
   bottom: 10px;
 }
@@ -65,14 +71,23 @@ img {
 #login-but {
   width: 165px;
   height: 25px;
+
+  border: 2px rgb(35, 81, 125) solid;
   border-radius: 5px;
-  border-style: solid;
+  transform: scale(1);
+  transition: color 0.2s, background-color 0.2s, transform 0.2s;
 }
 
 #login-but:hover {
-  background-color: darkgrey;
+  background-color: rgb(64, 148, 227);
   color: white;
-  transition: color 0.2s, background-color 0.2s;
+  transform: scale(0.95);
+  transition: color 0.2s, background-color 0.2s, transform 0.2s;
+}
+
+#login-but:active {
+  transform: scale(0.9);
+  transition: transform 0.2s;
 }
 
 #username:hover,
