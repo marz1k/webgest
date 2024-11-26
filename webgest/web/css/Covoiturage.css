@@ -1,0 +1,53 @@
+header>img{
+    height: 100px;
+}
+header>img{
+    height: 100px;
+    
+}
+#ligneUn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+#ligneDeux{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#offres{
+    padding-top: 5%;
+}
+#offres>div>div{
+    border-color: lightslategray;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    width: 500px;
+    height: 400px;
+}
+#offres>.ligne>div:hover{
+
+}
+div{
+    padding: 2em;
+}
+div img{
+    height: 150px;
+    float: left;
+}
+#banner{
+    background-image: url(../img/Careers_Hero.png);
+    height: 200px;
+    background-size:cover;
+}
+#banner h1{
+    color: white;
+    position:absolute;
+    left: 15%; top: 20%;
+}
+#article{
+    position: absolute;
+    left: 15%;
+}
