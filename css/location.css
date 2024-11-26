@@ -1,0 +1,19 @@
+.main_content{
+    border-style: solid;
+    border-radius: 0.5cm;
+    border-width: 0.1cm;
+}
+header{
+    display: block;
+    background-color: dodgerblue;
+    color: white;
+}
+header>h1{
+    font-size: 1cm;
+    
+}
+.main_content>h1{
+    border-width: 0.1cm;
+    border-style: solid;
+    margin: 10px;
+}
