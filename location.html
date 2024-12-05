@@ -7,10 +7,23 @@
     <body>
         <header>
             
-            <a href="https://www.ovhcloud.com/"><img src="./img/ovhcloud-logo2.png"></a>
+            <a href="./accueil.html"><img src="./img/ovhcloud-logo2.png"></a>
                             
         </header>
-        <div class="main_content">
+        <div class="filtre">
+            <table>
+                <tr>
+                    <td><strong>Durée</strong></td>
+                    <td><strong>Prix</strong></td>
+                </tr>
+                <tr>
+                    <td><input type="number" id="input" placeholder="50" min="0">Euros</td>
+                    <td><input type="number" id="input" placeholder="10" min="0">Jours</td>
+                </tr>
+            </table>
+            <button>Valider</button>
+        </div>
+        <div class="Offre">
             <h1>Offre de Vélo</h1>
             <div class="liste"></div>
             <ul>
