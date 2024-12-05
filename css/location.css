@@ -1,0 +1,40 @@
+.main_content{
+    border-style: solid;
+    border-radius: 0.5cm;
+    border-width: 0.1cm;
+}
+header{
+    display: block;
+    background-color: #000e9c;
+    color: white;
+    height: 50px;
+    margin-bottom: 25px;
+}
+header>a>img{
+    height: 45px;
+}
+header>h1{
+    font-size: 1cm;
+    
+}
+.main_content>h1{
+    border-width: 0.1cm;
+    border-style: solid;
+    margin: 10px;
+}
+
+
+.liste a{
+    font-weight: bold;
+}
+.liste ul:hover{
+    width:100%;
+    *{
+        zoom: 70%;
+        transition:zoom 1s ;
+    }
+}
+.liste>ul>li>img{
+
+    size: 50px 50px;
+}
