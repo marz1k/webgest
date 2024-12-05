@@ -5,8 +5,13 @@
 }
 header{
     display: block;
-    background-color: dodgerblue;
+    background-color: rgb(0, 0, 150);
     color: white;
+    height: 50px;
+    margin-bottom: 25px;
+}
+header>a>img{
+    height: 45px;
 }
 header>h1{
     font-size: 1cm;
@@ -16,4 +21,20 @@ header>h1{
     border-width: 0.1cm;
     border-style: solid;
     margin: 10px;
+}
+
+
+.liste a{
+    font-weight: bold;
+}
+.liste ul:hover{
+    width:100%;
+    *{
+        zoom: 70%;
+        transition:zoom 1s ;
+    }
+}
+.liste>ul>li>img{
+
+    size: 50px 50px;
 }
