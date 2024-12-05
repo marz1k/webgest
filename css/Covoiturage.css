@@ -1,10 +1,6 @@
 header>img{
     height: 100px;
 }
-header>img{
-    height: 100px;
-    
-}
 #ligneUn{
     display: flex;
     flex-direction: row;
@@ -25,16 +21,15 @@ header>img{
     border-style: solid;
     border-radius: 20px;
     width: 500px;
-    height: 400px;
-}
-#offres>.ligne>div:hover{
-
+    height: 175px;
 }
 div{
     padding: 2em;
 }
 div img{
-    height: 150px;
+    height: 175px;
+    width: 175px;
+    object-fit: cover;
     float: left;
 }
 #banner{
@@ -48,6 +43,7 @@ div img{
     left: 15%; top: 20%;
 }
 #article{
-    position: absolute;
-    left: 15%;
+    margin: 2%;
+    text-align: center;
+    height: 5%;
 }
