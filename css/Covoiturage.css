@@ -13,7 +13,7 @@ header>img{
     justify-content: space-around;
 }
 #offres{
-    padding-top: 5%;
+    padding-top: 2%;
 }
 #offres>div>div{
     border-color: lightslategray;
@@ -22,15 +22,19 @@ header>img{
     border-radius: 20px;
     width: 500px;
     height: 175px;
+    display: flex;
 }
-div{
+header>div{
+    padding: 2em;
+}
+#offres div{
     padding: 2em;
 }
 div img{
     height: 175px;
     width: 175px;
     object-fit: cover;
-    float: left;
+    border-radius: 10px;
 }
 #banner{
     background-image: url(../res/Careers_Hero.png);
@@ -43,7 +47,15 @@ div img{
     left: 15%; top: 20%;
 }
 #article{
+    margin-top: 5em;
+    position: relative;
+    left: 7.5%;
     margin: 2%;
-    text-align: center;
     height: 5%;
+    width: 50%;
+}
+#description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
