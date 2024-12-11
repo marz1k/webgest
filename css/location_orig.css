@@ -17,13 +17,8 @@ header>a>img{
 }
 header>h1{
     font-size: 1cm;
-}
-#searchbar>input{
-    width: 60%;
-    height: 40px;
-    margin-bottom: 20px;
-}
     
+}
 .Offre>h1{
     border-width: 0.1cm;
     border-style: solid;

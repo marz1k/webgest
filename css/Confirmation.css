@@ -1,20 +1,17 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-}
 #logo{
-    height: 74px;
+    height: 67px;
 }
-#validation{
+#validation {
     border-style: solid;
     border-color: blue;
     border-radius: 10px;
     size: 50px;
     width: 400px;
-    height: 300px;
-    padding: 20px;
+    height: 400px;
 }
 
 body{
+    background-color: antiquewhite;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -23,8 +20,9 @@ body {
     display: flex;
     justify-content: center;
 }
-#validation>form>div{
+#validation {
     display: flex;
     align-content: center;
+    justify-content: center;
     flex-direction: column;
 }
