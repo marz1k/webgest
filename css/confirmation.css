@@ -1,0 +1,62 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo{
+    height: 74px;
+    position: relative;
+    margin-top :5%;
+    margin-bottom: 10%;
+}
+
+#recapitulatif {
+    color: blue;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 10px;
+    border-width: 2px;
+    size: 50px;
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    margin-left: 2%;
+}
+#validation{
+    border-style: solid;
+    border-color: blue;
+    border-radius: 10px;
+    border-width: 2px;
+    size: 50px;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+#validation>form>div{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+#confirmation{
+    display: flex;
+    flex-direction: row;
+}
+button{
+    color: white;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    background-color:#000e9c;
+    border-radius: 10px;
+    border-style: none;
+    transition: color 0.2s, background-color 0.2s, transform 0.2s;
+}
+button:hover {
+    background-color: rgb(64, 148, 227);
+    /* color: white; */
+    transform: scale(0.95);
+    transition: background-color 0.2s, transform 0.2s;
+}
+
