@@ -59,6 +59,32 @@ text-decoration: none;
     /* top: 50px; */
     }
 
+    
+.logout-but {
+color: white;
+}
+
+.nav-tabs > ul > li,
+.logout-but {
+transform: scale(1);
+transition: color 0.2s, transform 0.2s;
+}
+
+.nav-tabs > ul > li:hover,
+.logout-but:hover, a:hover {
+cursor: pointer;
+color: rgb(64, 148, 227);
+transform: scale(0.95);
+transition: color 0.2s, transform 0.2s;
+}
+
+.nav-tabs > ul > li:active,
+.logout-but:active {
+color: rgb(64, 148, 227);
+transform: scale(0.9);
+transition: color 0.2s, transform 0.2s;
+}
+
 .searchbar{
     position: relative;
     display: flex;
@@ -97,8 +123,8 @@ text-decoration: none;
 
     
 .Offre>h1{
-    border-width: 0.1cm;
-    border-style: solid;
+    /* border-width: 0.1cm;
+    border-style: solid; */
     margin: 10px;
 }
 
@@ -115,7 +141,25 @@ td{
     padding: 10px;
 }
 
+/* article:not(:hover){
+    box-shadow: 0px 0px 0px rgb(0, 0, 0, 50%);
+    transform: translateY(0);
+    transition: box-shadow 0.5s, transform 0.5s;
+    z-index: 1;
+  } */
+  
+/* li:hover:not(#top):not(#logout-but){
+box-shadow: 0px 0px 50px rgb(0, 0, 0, 50%);
+transform: translateY(-10px);
+transition: box-shadow 0.5s, transform 0.5s;
+z-index: 1; */
+/* } */
 
-#Fl-title>td{
+
+/* li:hover:not(#top):not(#logout-but) {
+    
+} */
+
+/* #Fl-title>td{
     border-style: solid;
-}
+} */
