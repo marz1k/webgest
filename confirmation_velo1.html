@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<htmlang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Confirmation</title>
+    <link rel="stylesheet" href="./css/confirmation.css"/>
+</head>
+<body>
+    <img id="logo" src="./res/logo-ovhcloud-2024.svg" alt="log ovh">
+    <div id="confirmation">
+        <div id="validation">
+            <form name="Confirmation">
+            <h2>Confirmation</h2>
+            <div id="formulaire">
+                <label for="email">Email </label>
+                <input type="email" id="auteur" name="nom" maxlength="40" placeholder="email@mail.com"  pattern=".+@.+\.+.*"  required>
+            </div>
+            <div id="formulaire"> 
+                <label for="Mdp">Mot de passe</label>
+                <input type="password" id="auteur" name="Mdp" maxlength="40" placeholder="Mot de passe" required>                
+            </div>
+            <div id="formulaire">
+                <label for="tel">Numero de telephone </label>
+                <input type="tel" id="auteur" name="nom" size="9" placeholder="06 xx xx xx xx"  pattern=[0-9]{10}   title="portable" required>
+            </div>
+            <div id="formulaire">
+                <a href="accueil.html">
+                    <button type="submit" src="location.html">Confirmer</button>
+                </a>
+            </div>
+            </form>
+            
+        </div>
+        <div id="recapitulatif">
+            <h3>Vélo 1</h3>
+            <br>
+            <p>Durée : 15 Jours</p>
+            <p>Tarif : 50 €</p>
+        </div>
+    </div>
+    
+</body>
