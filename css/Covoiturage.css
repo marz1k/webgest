@@ -60,12 +60,47 @@ body {
 }
 
 main {
-    padding-top: 150px;
-    padding-left: 50px;
+    /* padding-top: 150px; */
+    /* padding-left: 50px; */
     padding-bottom: 60px;
     min-height: 100%;
     min-height: calc(100vh - 60px);
     }
+
+.searchbar{
+    position: relative;
+    display: flex;
+    /* margin-top: 100px; */
+    padding-top: 130px;
+    margin-left: 10px;
+}
+.searchbar>input{
+    width: 60%;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #000e9c;   
+}
+
+.searchbar>button{
+    width: 80px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #000e9c;  
+}
+
+.filter{
+    margin-left: 10px;
+    bottom: 20px;
+    /* padding-bottom: 20px; */
+    /* flex-direction: row; */
+    /* display: flex; */
+    position: relative;
+}
     
 #ligneUn{
     display: flex;
