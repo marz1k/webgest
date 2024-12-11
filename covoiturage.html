@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<htmlang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Covoiturage</title>
+    <link rel="stylesheet" href="./css/covoiturage.css" />
+</head>
+<body>
+    <header>
+        <div class="navigation">
+        
+          <nav>
+            <div class="nav-tabs">
+              <ul>
+                <li id="top"><a href="./accueil.html">Accueil</a></li>
+                <li id="mobilite"><a href="./ecomobilite.html">Mobilité</a></li>
+                <li style="left: 90%">
+                  <a class="logout-but" href="login.html">Log Out</a>
+                </li>
+              </ul>
+              <div class="clr"></div>
+        </div>
+    </header>
+    
+    <main>
+    <div>
+        <h1>Covoiturage</h1>
+    </div>
+    <div class="searchbar">
+        <input type="search" placeholder="Destination">
+        <button type="submit">Chercher</button>
+        <div class="filter">
+                <br>
+                Prix
+                <!-- <label for="prix">Prix:</label> -->
+                <label for="prix-start">de:</label>
+                <input id="prix-start" type="number" min="0" max="999" value="10">
+                <label for="prix-end">a</label>
+                <input id="prix-end" type="number" min="0" max="999" value="50">
+                euros.
+                <br>
+                Duree de location
+                <!-- <label for="prix">Prix:</label> -->
+                <label for="loc-start">de:</label>
+                <input id="loc-start" type="number" min="0" max="999" value="1">
+                <label for="loc-end">a</label>
+                <input id="loc-end" type="number" min="0" max="999" value="5">
+                jours.
+        </div>
+    </div>
+        <!-- <div id="article">
+            <h1>
+                Pourquoi faire du covoiturage ?
+            </h1>
+            <p>
+                Cette pratique présente de nombreux avantages : elle permet de réduire les frais de déplacement en partageant les coûts de carburant et de péage, tout en limitant l’impact écologique grâce à une diminution des émissions de CO2.Le covoiturage contribue également à réduire les embouteillages, rendant les trajets plus fluides et moins stressants. C’est aussi une excellente occasion de renforcer les liens entre collègues, en favorisant des moments de convivialité et de partage.Nous mettons à votre disposition des outils pour faciliter l’organisation de vos trajets partagés. Adopter le covoiturage, c’est opter pour une solution économique, écologique et collaborative qui bénéficie à tous !
+            </p>
+        </div> -->
+        <section id="offres">
+            <div id="ligneUn" class="ligne">
+                <div>
+                    <img src="./res/voit1.jpg">
+                    <div id="description">
+                        <p>Covoiturage 1 
+                            <br> Durée du trajet 5h 
+                            <br> Tarif : 20 € 
+                            <br> Date de départ : 
+                            <br> 31/02/2024 à 16h
+                            <br> Adresse de départ :  
+                            <br> 33 Rue des guets-apens
+                            <br> Destination :  
+                            <br> Gare de MontCuq
+                        </p>
+                        <a href="confirmation_covoiturage1.html">
+                        <button class="part" link="">Participer</button>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <img src="./res/voit2.jpg">
+                    <div id="description">
+                        <p>Covoiturage 2 
+                            <br> Durée du trajet 2h 
+                            <br> Tarif : 15 € 
+                            <br> Date de départ : 
+                            <br> 31/02/2024 à 13h
+                            <br> Adresse de départ :  
+                            <br> 20 Rue des guets-apens
+                            <br> Destination :  
+                            <br> Gare de MontCuq
+                        </p>
+                        <a href="confirmation_covoiturage1.html">
+                        <button class="part" link="">Participer</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="ligneDeux" class="ligne">
+                <div>
+                    <img src="./res/voit3.jpg">
+                    <div id="description">
+                        <p>Covoiturage 3 
+                            <br> Durée du trajet 5h 
+                            <br> Tarif : 35 € 
+                            <br> Date de départ : 
+                            <br> 31/02/2024 à 16h
+                            <br> Adresse de départ :  
+                            <br> 25 Rue des guets-apens
+                            <br> Destination :  
+                            <br> Gare de MontCuq
+                        </p>
+                        <a href="confirmation_covoiturage1.html">
+                        <button class="part" link="">Participer</button>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <img src="./res/voit4.jpg">
+                    <div id="description">
+                        <p>Covoiturage 4 
+                            <br> Durée du trajet 5h 
+                            <br> Tarif : 27 € 
+                            <br> Date de départ : 
+                            <br> 31/02/2024 à 16h
+                            <br> Adresse de départ :  
+                            <br> 589 Rue des guets-apens
+                            <br> Destination :  
+                            <br> Gare de MontCuq
+                        </p>
+                        <a href="confirmation_covoiturage1.html">
+                        <button class="part" link="">Participer
+                        </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
