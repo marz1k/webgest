@@ -162,3 +162,12 @@ div img{
     border-width: 1px;
 }
 
+#mention{
+	text-align:center;
+	color: white;
+	background-color:#3883fc;	
+}
+#mention>strong{
+	color: white;
+}
+
