@@ -165,4 +165,13 @@ footer > h4 {
   clear: both;
   font-size: 0;
 }
+
+#mention{
+	text-align:center;
+	color: white;
+	background-color:#3883fc;	
+}
+#mention>strong{
+	color: white;
+}
   
