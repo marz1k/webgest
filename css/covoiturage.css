@@ -51,9 +51,9 @@ nav > ul {
     transition: color 0.2s, transform 0.2s;
 }
 
-#mobilite{
+/* #mobilite{
     left: 10%;
-}
+} */
 
 body {
     margin: auto;
@@ -183,3 +183,18 @@ button:hover {
 #mention>strong{
 	color: white;
 }
+
+footer {
+  margin-top: 0;
+  margin-bottom: -60px;
+
+  width: 100%;
+  bottom: 0;
+  z-index: 0;
+  
+  color: white;
+  background-color: #000e9c;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-top: 2px rgb(35, 81, 125) solid;
+  }
